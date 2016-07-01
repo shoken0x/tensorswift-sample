@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44A3F0821D26BFF90030714D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3F0811D26BFF90030714D /* AppDelegate.swift */; };
+		44A3F0841D26BFF90030714D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3F0831D26BFF90030714D /* ViewController.swift */; };
+		44A3F0871D26BFF90030714D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A3F0851D26BFF90030714D /* Main.storyboard */; };
+		44A3F0891D26BFF90030714D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A3F0881D26BFF90030714D /* Assets.xcassets */; };
+		44A3F08C1D26BFF90030714D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A3F08A1D26BFF90030714D /* LaunchScreen.storyboard */; };
+		44A3F0971D26BFF90030714D /* tensorswift_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3F0961D26BFF90030714D /* tensorswift_sampleTests.swift */; };
+		44A3F0A21D26BFF90030714D /* tensorswift_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A3F0A11D26BFF90030714D /* tensorswift_sampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A3F0931D26BFF90030714D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A3F0761D26BFF90030714D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A3F07D1D26BFF90030714D;
+			remoteInfo = "tensorswift-sample";
+		};
+		44A3F09E1D26BFF90030714D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A3F0761D26BFF90030714D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A3F07D1D26BFF90030714D;
+			remoteInfo = "tensorswift-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44A3F07E1D26BFF90030714D /* tensorswift-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tensorswift-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A3F0811D26BFF90030714D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44A3F0831D26BFF90030714D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44A3F0861D26BFF90030714D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A3F0881D26BFF90030714D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44A3F08B1D26BFF90030714D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44A3F08D1D26BFF90030714D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A3F0921D26BFF90030714D /* tensorswift-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tensorswift-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A3F0961D26BFF90030714D /* tensorswift_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tensorswift_sampleTests.swift; sourceTree = "<group>"; };
+		44A3F0981D26BFF90030714D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A3F09D1D26BFF90030714D /* tensorswift-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tensorswift-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A3F0A11D26BFF90030714D /* tensorswift_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tensorswift_sampleUITests.swift; sourceTree = "<group>"; };
+		44A3F0A31D26BFF90030714D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A3F07B1D26BFF90030714D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A3F08F1D26BFF90030714D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A3F09A1D26BFF90030714D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A3F0751D26BFF90030714D = {
+			isa = PBXGroup;
+			children = (
+				44A3F0801D26BFF90030714D /* tensorswift-sample */,
+				44A3F0951D26BFF90030714D /* tensorswift-sampleTests */,
+				44A3F0A01D26BFF90030714D /* tensorswift-sampleUITests */,
+				44A3F07F1D26BFF90030714D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A3F07F1D26BFF90030714D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A3F07E1D26BFF90030714D /* tensorswift-sample.app */,
+				44A3F0921D26BFF90030714D /* tensorswift-sampleTests.xctest */,
+				44A3F09D1D26BFF90030714D /* tensorswift-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A3F0801D26BFF90030714D /* tensorswift-sample */ = {
+			isa = PBXGroup;
+			children = (
+				44A3F0811D26BFF90030714D /* AppDelegate.swift */,
+				44A3F0831D26BFF90030714D /* ViewController.swift */,
+				44A3F0851D26BFF90030714D /* Main.storyboard */,
+				44A3F0881D26BFF90030714D /* Assets.xcassets */,
+				44A3F08A1D26BFF90030714D /* LaunchScreen.storyboard */,
+				44A3F08D1D26BFF90030714D /* Info.plist */,
+			);
+			path = "tensorswift-sample";
+			sourceTree = "<group>";
+		};
+		44A3F0951D26BFF90030714D /* tensorswift-sampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				44A3F0961D26BFF90030714D /* tensorswift_sampleTests.swift */,
+				44A3F0981D26BFF90030714D /* Info.plist */,
+			);
+			path = "tensorswift-sampleTests";
+			sourceTree = "<group>";
+		};
+		44A3F0A01D26BFF90030714D /* tensorswift-sampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44A3F0A11D26BFF90030714D /* tensorswift_sampleUITests.swift */,
+				44A3F0A31D26BFF90030714D /* Info.plist */,
+			);
+			path = "tensorswift-sampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A3F07D1D26BFF90030714D /* tensorswift-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A3F0A61D26BFF90030714D /* Build configuration list for PBXNativeTarget "tensorswift-sample" */;
+			buildPhases = (
+				44A3F07A1D26BFF90030714D /* Sources */,
+				44A3F07B1D26BFF90030714D /* Frameworks */,
+				44A3F07C1D26BFF90030714D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tensorswift-sample";
+			productName = "tensorswift-sample";
+			productReference = 44A3F07E1D26BFF90030714D /* tensorswift-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44A3F0911D26BFF90030714D /* tensorswift-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A3F0A91D26BFF90030714D /* Build configuration list for PBXNativeTarget "tensorswift-sampleTests" */;
+			buildPhases = (
+				44A3F08E1D26BFF90030714D /* Sources */,
+				44A3F08F1D26BFF90030714D /* Frameworks */,
+				44A3F0901D26BFF90030714D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A3F0941D26BFF90030714D /* PBXTargetDependency */,
+			);
+			name = "tensorswift-sampleTests";
+			productName = "tensorswift-sampleTests";
+			productReference = 44A3F0921D26BFF90030714D /* tensorswift-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44A3F09C1D26BFF90030714D /* tensorswift-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A3F0AC1D26BFF90030714D /* Build configuration list for PBXNativeTarget "tensorswift-sampleUITests" */;
+			buildPhases = (
+				44A3F0991D26BFF90030714D /* Sources */,
+				44A3F09A1D26BFF90030714D /* Frameworks */,
+				44A3F09B1D26BFF90030714D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A3F09F1D26BFF90030714D /* PBXTargetDependency */,
+			);
+			name = "tensorswift-sampleUITests";
+			productName = "tensorswift-sampleUITests";
+			productReference = 44A3F09D1D26BFF90030714D /* tensorswift-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A3F0761D26BFF90030714D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shoken Fujisaki";
+				TargetAttributes = {
+					44A3F07D1D26BFF90030714D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RLFH78T4HB;
+					};
+					44A3F0911D26BFF90030714D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 645QK7J5E9;
+						TestTargetID = 44A3F07D1D26BFF90030714D;
+					};
+					44A3F09C1D26BFF90030714D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 645QK7J5E9;
+						TestTargetID = 44A3F07D1D26BFF90030714D;
+					};
+				};
+			};
+			buildConfigurationList = 44A3F0791D26BFF90030714D /* Build configuration list for PBXProject "tensorswift-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A3F0751D26BFF90030714D;
+			productRefGroup = 44A3F07F1D26BFF90030714D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A3F07D1D26BFF90030714D /* tensorswift-sample */,
+				44A3F0911D26BFF90030714D /* tensorswift-sampleTests */,
+				44A3F09C1D26BFF90030714D /* tensorswift-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A3F07C1D26BFF90030714D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A3F08C1D26BFF90030714D /* LaunchScreen.storyboard in Resources */,
+				44A3F0891D26BFF90030714D /* Assets.xcassets in Resources */,
+				44A3F0871D26BFF90030714D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A3F0901D26BFF90030714D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A3F09B1D26BFF90030714D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A3F07A1D26BFF90030714D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A3F0841D26BFF90030714D /* ViewController.swift in Sources */,
+				44A3F0821D26BFF90030714D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A3F08E1D26BFF90030714D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A3F0971D26BFF90030714D /* tensorswift_sampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A3F0991D26BFF90030714D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A3F0A21D26BFF90030714D /* tensorswift_sampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44A3F0941D26BFF90030714D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A3F07D1D26BFF90030714D /* tensorswift-sample */;
+			targetProxy = 44A3F0931D26BFF90030714D /* PBXContainerItemProxy */;
+		};
+		44A3F09F1D26BFF90030714D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A3F07D1D26BFF90030714D /* tensorswift-sample */;
+			targetProxy = 44A3F09E1D26BFF90030714D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44A3F0851D26BFF90030714D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A3F0861D26BFF90030714D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44A3F08A1D26BFF90030714D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A3F08B1D26BFF90030714D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44A3F0A41D26BFF90030714D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44A3F0A51D26BFF90030714D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A3F0A71D26BFF90030714D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "tensorswift-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kitchhike.tensorswift-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		44A3F0A81D26BFF90030714D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "tensorswift-sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kitchhike.tensorswift-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		44A3F0AA1D26BFF90030714D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tensorswift-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kitchhike.tensorswift-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tensorswift-sample.app/tensorswift-sample";
+			};
+			name = Debug;
+		};
+		44A3F0AB1D26BFF90030714D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tensorswift-sampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kitchhike.tensorswift-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tensorswift-sample.app/tensorswift-sample";
+			};
+			name = Release;
+		};
+		44A3F0AD1D26BFF90030714D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tensorswift-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kitchhike.tensorswift-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tensorswift-sample";
+			};
+			name = Debug;
+		};
+		44A3F0AE1D26BFF90030714D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "tensorswift-sampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kitchhike.tensorswift-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "tensorswift-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A3F0791D26BFF90030714D /* Build configuration list for PBXProject "tensorswift-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A3F0A41D26BFF90030714D /* Debug */,
+				44A3F0A51D26BFF90030714D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A3F0A61D26BFF90030714D /* Build configuration list for PBXNativeTarget "tensorswift-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A3F0A71D26BFF90030714D /* Debug */,
+				44A3F0A81D26BFF90030714D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A3F0A91D26BFF90030714D /* Build configuration list for PBXNativeTarget "tensorswift-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A3F0AA1D26BFF90030714D /* Debug */,
+				44A3F0AB1D26BFF90030714D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A3F0AC1D26BFF90030714D /* Build configuration list for PBXNativeTarget "tensorswift-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A3F0AD1D26BFF90030714D /* Debug */,
+				44A3F0AE1D26BFF90030714D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44A3F0761D26BFF90030714D /* Project object */;
+}
